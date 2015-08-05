@@ -9,9 +9,8 @@
 
 "use strict";
 
-var light       = require("light-core")
-  , _           = light.util.underscore
-  , io          = light.util.socket()
+var _           = light.util.underscore
+  , io          = require("socket.io")
   , config      = light.framework.config
   , async       = light.util.async
   , log         = light.framework.log

@@ -6,8 +6,7 @@
  */
 
 
-var light     = require("light-core")
-  , conn      = light.framework.mongoconn
+var conn      = light.framework.mongo
   , _         = light.util.underscore
   , constant  = require("./constant")
   ;

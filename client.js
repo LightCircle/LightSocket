@@ -9,8 +9,7 @@
 
 "use strict";
 
-var light       = require("light-core")
-  , socket      = light.util.socketclient
+var socket      = require("socket.io-client")
   , config      = light.framework.config
   , util        = light.lang.util
   , log         = light.framework.log
