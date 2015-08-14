@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/LightCircle/LightSocket",
   "dependencies": {
-    "light-core": "git+http://git.alphabets.cn/root/LightCore.git"
+    "light-core": "git+http://git.alphabets.cn/root/LightCore.git",
+    "socket.io": "1.3.6",
+    "socket.io-client": "1.3.6"
   }
 }

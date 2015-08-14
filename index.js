@@ -2,6 +2,7 @@
 "use strict";
 
 module.exports = {
-  "server": require("./notice"),
-  "client": require("./client")
+  "client": require("./lib/client"),
+  "server": require("socket.io"),
+  "io": require("socket.io-client")
 };
